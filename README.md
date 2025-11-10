@@ -41,14 +41,10 @@ git clone https://github.com/<your-username>/periodic_table.git
 cd periodic_table
 Import the database schema and sample data:
 
-bash
-Копіювати код
 psql -U <your-username> -d periodic_table -f periodic_table.sql
 🧰 Usage
 Run the script to query information about an element:
 
-bash
-Копіювати код
 ./element.sh
 Behavior:
 No argument →
@@ -59,6 +55,9 @@ The element with atomic number 1 is Hydrogen (H). It's a nonmetal, with a mass o
 
 Invalid element →
 I could not find that element in the database.
+```bash 
+
+---
 
 ## 📁 Files
 File	Description
