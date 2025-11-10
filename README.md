@@ -55,7 +55,7 @@ The element with atomic number 1 is Hydrogen (H). It's a nonmetal, with a mass o
 
 Invalid element →
 I could not find that element in the database.
-```bash 
+```
 
 ---
 
